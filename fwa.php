@@ -12,7 +12,15 @@
         
         $tokenconfirmed = false;
         
-        $token = fopen("../sysdata/tokens.txt" //continue work here :) 
+        $token = fopen("../sysdata/tokens.txt");
+        
+        $tokendata = fread($token, filesize("../sysdata/tokens.txt"));
+        
+        fclose($token);
+        
+        $explodedata = explode(";", $tokendata);
+        
+        $tokenamount 
         
         $file = fopen("../accounts/applicationdata/smn/
     }
