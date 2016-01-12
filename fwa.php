@@ -20,7 +20,7 @@
         
         $explodedata = explode(";", $tokendata);
         
-        $tokenamount 
+        $tokenamount = count( $explodedata );
         
         $file = fopen("../accounts/applicationdata/smn/
     }
